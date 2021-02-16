@@ -1,0 +1,230 @@
+:root {
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-color-black: #000000;
+  --primary-white-color: #ffffff;
+  --background-color: #f5f4fa;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  background-color: tomato;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0px 15px;
+}
+
+/* NAVIGATION */
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.logo {
+  color: var(--primary-color-black);
+  text-decoration: none;
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.site-nav-link {
+  color: var(--title-text-color);
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15px;
+}
+
+.site-nav-link:hover {
+  color: var(--accent-color);
+}
+
+.site-nav .site-nav-link.current {
+  color: var(--accent-color);
+}
+
+.contacts-link {
+  color: var(--text-color);
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15px;
+}
+
+.nav-container,
+.nav,
+.nav-container {
+  justify-content: space-between;
+
+  padding-top: 24px;
+  padding-bottom: 25;
+}
+
+.contacts-link:hover {
+  color: var(--accent-color);
+}
+
+/* HERO */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.service-batton {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* OUR ADVENTAGE */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  clip: rect(0 0 0 0);
+}
+
+.title-advantage-item {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.advantage-item-description {
+  color: var(--text-color);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.title-list-doing,
+.our-team-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* OUR TEAM */
+
+.our-team {
+  background-color: var(--background-color);
+}
+
+.name {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.profession {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: var(--primary-white-color);
+
+  line-height: 1.38;
+}
+
+.address-text {
+  color: var(--primary-white-color);
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* ===PORTFOLIO=== */
+
+.our-projects-filter-button:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.our-projects-filter-button {
+  background-color: var(--background-color);
+  color: var(--title-text-color);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.project-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.projects-link {
+  text-decoration: none;
+}
+
+.project-text {
+  color: var(--text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
