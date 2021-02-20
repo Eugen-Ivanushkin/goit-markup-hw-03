@@ -9,6 +9,7 @@
   --primary-color-black: #000000;
   --primary-white-color: #ffffff;
   --background-color: #f5f4fa;
+  --border-color: #eeeeee;
 }
 
 body {
@@ -82,6 +83,7 @@ body {
 .header-nav {
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .site-nav,
@@ -332,11 +334,15 @@ footer {
   flex-wrap: wrap;
 
   margin-top: 50px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .progect-list-item:not(:nth-child(3n)) {
   margin-right: 30px;
+}
+
+.progect-list-item {
+  margin-top: 30px;
 }
 
 .project-list-img {
@@ -345,4 +351,7 @@ footer {
 
 .project-info {
   padding: 20px 24px;
+  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
 }
