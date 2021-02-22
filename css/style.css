@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
 }
@@ -43,13 +43,16 @@ body {
   margin-right: 93px;
 }
 
-.site-nav-link {
+.site-nav-link,
+.contacts-link {
   color: var(--title-text-color);
   text-decoration: none;
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15px;
+
+  padding: 32px 0;
 }
 
 .site-nav-link:hover {
@@ -62,11 +65,6 @@ body {
 
 .contacts-link {
   color: var(--text-color);
-  text-decoration: none;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.15px;
 }
 
 .contacts-link:hover {
@@ -83,7 +81,7 @@ body {
 .header-nav {
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--border-color);
+  border: 1px solid var(--border-color);
 }
 
 .site-nav,
@@ -100,11 +98,12 @@ body {
 
 .hero {
   background-color: #2f303a;
-  height: 600px;
+  min-height: 600px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .hero-title {
@@ -114,9 +113,9 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
+  text-align: center;
 
   margin: 0;
-  padding-top: 200px;
 }
 
 .button {
@@ -167,6 +166,10 @@ body {
   margin-top: 10px;
 }
 
+.adventage {
+  padding: 94px 0;
+}
+
 /* WHAT ARE WE DOING? */
 
 .title-list-doing,
@@ -189,7 +192,6 @@ body {
 .adventage-list {
   display: flex;
   justify-content: space-between;
-  padding: 94px 0;
 }
 
 .doing-list-img,
@@ -205,18 +207,21 @@ body {
 .doing-list-item:not(:last-child),
 .team-list-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.doing {
   padding-bottom: 94px;
 }
 
 /* OUR TEAM */
 
 .our-team-title {
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
 .our-team {
   background-color: var(--background-color);
+  padding: 94px 15px;
 }
 
 .name {
@@ -279,6 +284,10 @@ footer {
 
 /* ===PORTFOLIO=== */
 
+.portfolio {
+  padding: 94px 15px;
+}
+
 .our-projects-filter-button:hover {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -325,7 +334,6 @@ footer {
 .button-list {
   display: flex;
 
-  padding-top: 94px;
   padding-left: 295px;
 }
 
@@ -333,15 +341,14 @@ footer {
   display: flex;
   flex-wrap: wrap;
 
-  margin-top: 50px;
-  padding-bottom: 94px;
+  margin-top: 34px;
 }
 
 .progect-list-item:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
-.progect-list-item {
+.progect-list-item:not(:nth-child(-n + 3)) {
   margin-top: 30px;
 }
 
