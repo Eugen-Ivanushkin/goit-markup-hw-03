@@ -237,6 +237,7 @@ header {
 
 .team-list-item {
   width: 270px;
+  background-color: var(--primary-white-color);
 }
 
 .name {
@@ -279,6 +280,11 @@ footer {
   margin-top: 20px;
 }
 
+.address-list,
+.address-list-item {
+  margin-top: 9px;
+}
+
 .address-text {
   color: var(--primary-white-color);
 
@@ -297,7 +303,6 @@ footer {
   line-height: 1.71;
 
   display: inline-block;
-  margin-top: 9px;
 }
 
 .footer {
@@ -339,6 +344,8 @@ footer {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+
+  margin-bottom: 4px;
 }
 
 .projects-link {
@@ -355,15 +362,14 @@ footer {
 
 .button-list {
   display: flex;
-
-  padding-left: 295px;
+  justify-content: center;
 }
 
 .project-list {
   display: flex;
   flex-wrap: wrap;
 
-  margin-top: 34px;
+  margin-top: 50px;
 }
 
 .progect-list-item:not(:nth-child(3n)) {
